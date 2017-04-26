@@ -1,13 +1,13 @@
-package gguessTheWord;
+package guessTheWord;
 
         import java.util.Random;
 
 public class Computer {
-    private String[] words;
+    //private String[] words;
     private String secretWord;
 
     public Computer(String[] words) {
-        this.words = words;
+        //this.words = words;
         Random random = new Random();
         secretWord = words[random.nextInt(words.length)];
     }

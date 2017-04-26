@@ -1,4 +1,4 @@
-package gguessTheWord;
+package guessTheWord;
 
 import java.util.Arrays;
 //import java.util.Random;
