@@ -31,7 +31,7 @@ public class Computer {
         System.out.println();
     }
 
-    public boolean isEquilTo(String guessWord){
+    public boolean isEqualTo(String guessWord){
         return guessWord.equals(secretWord);
     }
 }

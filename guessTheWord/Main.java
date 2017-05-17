@@ -14,7 +14,6 @@ public class Main {
         String[] words = {"apple", "orange", "lemon", "banana", "apricot", "avocado", "broccoli", "carrot", "cherry",
                 "garlic", "grape", "melon", "leak", "kiwi", "mango", "mushroom", "nut", "olive", "pea", "peanut",
                 "pear", "pepper", "pineapple", "pumpkin", "potato"};
-        final int n = words.length;
 
         Computer comp = new Computer(words);
         System.out.println(GUESS_WORD_FROM_ARRAY);
@@ -24,7 +23,7 @@ public class Main {
         boolean win = false;
         while (!win) {
             String my_guess = scanner.nextLine();
-            if (comp.isEquilTo(my_guess)) {
+            if (comp.isEqualTo(my_guess)) {
                 System.out.println("Вы угадали!");
                 win = true;
             } else {
